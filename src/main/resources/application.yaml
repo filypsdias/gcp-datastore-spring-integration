@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gcp:
+      storage:
+        enabled: true
+      datastore:
+        project-id: upgrade-service-gcp-datastore
+      config:
+        credentials:
+          location: upgrade-service-gcp-datastore-da438edad0a3.json
